@@ -31,15 +31,20 @@ O projeto implementa quatro funções principais para gerenciar a lógica da cal
 | `calcular()` | Utiliza a função `eval()` do Python para executar a expressão matemática contida em `todos_valores` e exibe o resultado. | = |
 | `calcular_porcentagem()` | Implementa uma lógica específica para o botão `%`, dividindo o valor atual por 100, evitando erros de sintaxe com o `eval()`. | % |
 
+
 ## 🧠 Destaque: Lógica de Cálculo
 
 A chave para o cálculo está no uso da função:
 
 ```python
 eval(todos_valores)
+```
 
 
-![Interface da Calculadora]()
 Esta função interpreta a string acumulada (ex: "10+5*2") como uma expressão matemática válida e retorna o resultado, tornando o código de cálculo extremamente conciso.
 
 Observação: A lógica do botão de porcentagem (%) precisou ser tratada separadamente, pois o eval() interpreta o % como o operador de módulo (resto da divisão), e não como uma porcentagem.
+
+
+<img width="229" height="322" alt="{E653C32A-F7E2-496B-A371-E8EF63CDAF8F}" src="https://github.com/user-attachments/assets/6c9dd3cb-6fa9-4203-bd1a-a1210953aeff" />
+
