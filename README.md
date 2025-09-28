@@ -2,7 +2,7 @@
 
 Este mini projeto consiste na criação de uma **Calculadora funcional** utilizando a biblioteca gráfica nativa do Python, o **Tkinter**. O objetivo foi construir a interface (layout) e implementar a lógica básica de entrada de dados e cálculos matemáticos.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Python**: Linguagem de programação principal.
 - **Tkinter**: Biblioteca padrão do Python para criação da interface gráfica (GUI).
 
@@ -20,7 +20,7 @@ A interface é dividida em dois **Frames**:
 - **frame_tela (Visor)**: Exibe a expressão atual e o resultado.  
 - **frame_corpo (Corpo)**: Contém todos os botões da calculadora.
 
-## 💡 Funcionalidades Principais Implementadas
+##  Funcionalidades Principais Implementadas
 
 O projeto implementa quatro funções principais para gerenciar a lógica da calculadora:
 
@@ -32,7 +32,7 @@ O projeto implementa quatro funções principais para gerenciar a lógica da cal
 | `calcular_porcentagem()` | Implementa uma lógica específica para o botão `%`, dividindo o valor atual por 100, evitando erros de sintaxe com o `eval()`. | % |
 
 
-## 🧠 Destaque: Lógica de Cálculo
+##  Destaque: Lógica de Cálculo
 
 A chave para o cálculo está no uso da função:
 
